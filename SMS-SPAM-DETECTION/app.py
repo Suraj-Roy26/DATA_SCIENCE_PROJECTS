@@ -5,6 +5,8 @@ import streamlit as st
 import pickle
 from nltk.stem.porter import PorterStemmer
 import os
+nltk.download('punkt')
+nltk.download('punkt_tab')
 ps = PorterStemmer()
 
 
